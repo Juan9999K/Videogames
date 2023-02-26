@@ -1,0 +1,43 @@
+.nav {
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    justify-content: space-around;
+    background-color: orangered;
+    padding-top: 12px;
+    padding-bottom: 15px;
+}
+
+.text {
+    font-family: 'calibri';
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+
+
+ 
+
+@media screen and (max-width: 700px) {
+    .nav {
+        width: 100%;
+        padding-top: 17px;
+        padding-bottom: 17px;
+    }
+    
+    .text {
+
+        font-weight: normal;
+        font-size: 18px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}

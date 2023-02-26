@@ -1,0 +1,96 @@
+.divLP {
+    margin: 0;
+   color: blue;
+  }
+  
+  .divTextBtn {
+    display: flex;
+    flex-direction: column;
+    padding-top: 220px;
+    padding-left: 190px;
+  }
+  
+  .text {
+    color: rgb(248, 242, 242);
+    font-family: 'myFont';
+    font-size: 60px;
+    margin: 0;
+    padding-bottom: 70px;
+    text-shadow: 0 0 100px rgb(163, 160, 196), 0 0 42px #dedef5, 0 0 82px #f8f9fa;
+    margin-top: 60px;
+  }
+  
+  .btn {
+    font-family: 'myFont2';
+    font-size: 30px;
+    color: rgb(240, 235, 245);
+    background-color: rgb(255, 0, 4);
+    border-color: rgb(240, 235, 245);
+    border-radius: 10%;
+    cursor: pointer;
+    padding: 6px;
+    margin-left: 140px;
+    margin-top:380px;
+  }
+  
+  .btn:hover {
+    font-size: 33px;
+    color: rgb(146, 74, 212);
+    background-color: #dedef5;
+    border-color: rgb(146, 74, 212);
+  }
+  
+  .img {
+    display: flex;
+    width: 245px;
+    height: 245px;
+    margin-top: 130px;
+    padding-left: 195px;
+  }
+      
+    .divLP {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: space-around;
+    }
+    
+    .divTextBtn {
+      padding-top: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      margin-left: 18px;
+      margin-right: 0px;
+      margin-top: auto;
+      margin-bottom: auto;
+      text-align: center;
+      align-items: center;
+    }
+    
+    .text {
+      font-size: 28px;
+      padding-bottom: 70px;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    
+    .btn {
+      font-size: 22px;
+      padding: 6px;
+      margin-left: 0px;
+    }
+    
+    .btn:hover {
+      font-size: 25px;
+    }
+    
+    .img {
+      width: 100px;
+      height: 100px;
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-right: 18px;
+      padding-left: 0px;
+    }
+    
+  
